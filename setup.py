@@ -18,7 +18,7 @@ setup(
         author_email='daniel.molina@uca.es',
         description='Package for benchmark for the special sessions on IEEE Congress on Evolutionary Computation CEC\'2013',
         long_description=open('README.txt').read(),
-        license='LICENSE.txt',
+        license='GPL V3',
         packages=['cec2013single'],
         install_requires=['cython', 'numpy'],
         ext_modules=cythonize(cec2013single),
